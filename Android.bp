@@ -97,9 +97,4 @@ cc_library {
         "lib/mount.c",
         "lib/mount_util.c",
     ],
-
-    apex_available: [
-        "//apex_available:platform",
-        "com.android.mediaprovider",
-    ],
 }
